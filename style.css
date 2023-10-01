@@ -55,12 +55,10 @@
         display: flex;
         flex-direction: row;
         gap:20px;        
-
         position: absolute;
         top: 300px;
         left: 167px;
         right: 168px;
-        width: 100vw;
         }
 
     main #free-plan{
@@ -96,32 +94,30 @@
         border-radius: 8px 8px 0px 0px;
     }
 
-    #basic-plan .label p{
+    #basic-plan .label .plan-type{
         color: var(--blue);
         font-size: 20px;
         font-weight: 500;   
-
         margin: 25px 0px 24px 30px;
     }
 
-    #basic-plan .label .popular-flag{
-
-        display: flex;
-        justify-content: center;
-        align-items: center;
-
-        background-color: var(--blue);
-        color: #FFFFFF;
-        width: 94px;
-        height: 32px;
-
-        margin: 22px 20px 22px 0px;
-        padding: 8px 24px;
-
-        border-radius: 40px;
+    .popular-flag{
         
+       display: flex;
+       align-items: center;
+       justify-content: center; 
+
+       margin: 22px 20px 22px 0px;
+       background-color: var(--blue);
+       width: 94px;
+       height: 32px;
+       border-radius: 40px;         
+    }
+
+    .popular-text{
+        color: #FFFFFF;     
         font-size: 12px;
-        font-weight: 600;     
+        font-weight: 600;
     }
 
     main #professional-plan{
